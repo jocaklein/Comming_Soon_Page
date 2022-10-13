@@ -43,10 +43,6 @@ h2#count{
     color: rgb(185, 184, 184);
 }
 
-main{
-    gap: 10vw;
-}
-
 img#cloud{
     width: 100vw;
 }
@@ -55,17 +51,24 @@ img#rocket{
     height: 44vh;
 }
 
+a{
+    color: white;
+}
+
 button{
     height: 3.5rem;
     width: 10rem;
     color: white;
     background-color: blueviolet;
     border-radius: 15px;
+    transition: 0.6s;
 }
 
 button:hover{
     transition: 0.6s;
-    background-color: rgb(92, 29, 151)
+    background-color: rgb(81, 27, 131);
+    cursor: pointer;
+
 }
 
 h1{

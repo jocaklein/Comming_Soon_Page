@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <script src="/Countdown.js"></script>
-    <title>Comming Soon...</title>
+    <link rel="stylesheet" href="/StyleLogin.css">
+    <title>Register</title>
 </head>
 <body>
     <header class="flex-container">
@@ -14,27 +14,23 @@
     </header>
 
     <main class="flex-container">
-        <div class="flex-container">
-            <h1>Ready to lauch in...</h1>
-
-            <div id="countdown">
-                <ul>
-                  <li>days<span id="days"></span></li>
-                  <li>Hours<span id="hours"></span></li>
-                  <li>Minutes<span id="minutes"></span></li>
-                  <li>Seconds<span id="seconds"></span></li>
-                </ul>
-            </div>
-
-            <p>Subscribe to keep knowing the news:</p>
-            <button><a href="/RegisterPage.html">Subscribe</a></button>
-        </div>
+        <form class="login" action="">
+            <h1>Register</h1>
+            <fieldset>
+                <label>Name</label>
+                <input type="text" placeholder="Write your name" minlength="5" required>
+            </fieldset>
+            <fieldset>
+                <label>E-mail</label>
+                <input type="email" placeholder="Write your name" minlength="5" required>
+            </fieldset>
+            <button type="submit">Register</button>
+        </form>
         <img id="rocket" src="/images/rocket.svg" alt="rocket">
     </main>
 
     <footer class="flex-container">
         <img id="cloud" src="/images/bottom-image.svg" alt="Botton-IMG">
     </footer>
-
 </body>
 </html>

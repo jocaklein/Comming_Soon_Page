@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(243, 237, 243);
+    height: 15vw;
+}
+
+.flex-container{
+    justify-content: space-evenly;
+}
+
