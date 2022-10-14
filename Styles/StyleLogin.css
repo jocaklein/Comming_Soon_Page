@@ -1,0 +1,19 @@
+.login{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(243, 237, 243);
+    height: 20rem;
+    width: 17rem;
+}
+
+.flex-container{
+    justify-content: space-evenly;
+}
+
+#submit{
+    height: 2.5rem;
+    width: 8rem;
+}

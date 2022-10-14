@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/StyleLogin.css">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/StyleLogin.css">
+    <script src="Scripts/login.js" defer></script>
     <title>Register</title>
 </head>
 <body>
@@ -14,18 +15,20 @@
     </header>
 
     <main class="flex-container">
+        
         <form class="login" action="">
             <h1>Register</h1>
             <fieldset>
                 <label>Name</label>
-                <input type="text" placeholder="Write your name" minlength="5" required>
+                <input id="fullname" type="text" placeholder="Write your name" minlength="5">
             </fieldset>
             <fieldset>
                 <label>E-mail</label>
-                <input type="email" placeholder="Write your name" minlength="5" required>
+                <input id="email" type="email" placeholder="Write your name" minlength="5">
             </fieldset>
-            <button type="submit">Register</button>
+            <input type="submit" id="submit" value="Send">
         </form>
+
         <img id="rocket" src="/images/rocket.svg" alt="rocket">
     </main>
 
